@@ -24,6 +24,7 @@ nav {
     color: white;
     border: #F0B429 1px solid;
     padding: 20px;
+    font-weight: bold;
 }
 
 header {
@@ -34,6 +35,7 @@ header {
 
 nav {
     grid-area: nav;
+    
 }
 
 main {
@@ -44,3 +46,23 @@ main {
 aside {
     grid-area: sidebar;
 }
+
+h3 {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+i {
+    padding-right: 15px;
+}
+
