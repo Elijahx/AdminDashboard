@@ -139,6 +139,22 @@ button {
 
 }
 
+button:hover {
+    transform: scale(1.2);
+}
+.subSectionContentContainer {
+    display: flex;
+    gap: 15px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.subSectionContent {
+    width: 250px;
+    height: 200px;
+    background-color: whitesmoke;
+}
 
 @media screen and (max-width: 710px) {
     input {
@@ -151,6 +167,10 @@ button {
         padding-top: 0px;
         padding-left: 0px;
         display:block;
-        
+
+    }
+    .subSectionContent {
+        width: 150px;
+        height: 100px;
     }
 }
