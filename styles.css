@@ -30,7 +30,7 @@ nav {
 header {
     grid-area: header;
     background-color: #FFFFFF;
-    
+    color: black;
 }
 
 nav {
@@ -77,4 +77,80 @@ a:hover {
 
 i:hover {
     transform: scale(1.5);
+}
+
+.headerContainerTop {
+    Display: flex;
+}
+
+.hCTcolumnOne {
+    flex: 1;
+    display: table;
+}
+
+.hCTcolumnTwo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    display: table-cell;
+}
+
+input {
+    border-radius: 18px;
+    background-color: #E2E8F0;
+    width: 1fr;       
+    
+}
+
+.headerContainerBot {
+    display: flex;
+}
+
+.hCBcolumnOne {
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    padding: 20px;
+    flex: 1;
+
+}
+.hCBcolumnTwo{
+    flex: 1;
+    padding-top: 35px;
+    padding-left: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h6 {
+    padding-bottom: 5px;
+}
+
+button {
+    background-color: #1992D4;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    width: 70px;
+    font-weight: bold;
+
+}
+
+
+@media screen and (max-width: 710px) {
+    input {
+        width: 125px;
+    }
+    header {
+        font-size: .8em;
+    }
+    .hCBcolumnTwo {
+        padding-top: 0px;
+        padding-left: 0px;
+        display:block;
+        
+    }
 }
