@@ -41,10 +41,13 @@ nav {
 main {
     grid-area: content;
     background-color: #E2E8F0;
+    color: black;
 }
 
 aside {
     grid-area: sidebar;
+    color: black;
+    background-color: #E2E8F0;
 }
 
 h3 {
@@ -156,6 +159,21 @@ button:hover {
     background-color: whitesmoke;
 }
 
+.asideSectionContainer {
+    display: flex;
+    gap: 30px;
+    flex-wrap:wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.asideSectionContent {
+    width: 240px;
+    height: 270px;
+    background-color: #FFFFFF;
+}
+
+
+
 @media screen and (max-width: 710px) {
     input {
         width: 125px;
@@ -171,6 +189,12 @@ button:hover {
     }
     .subSectionContent {
         width: 150px;
-        height: 100px;
+        height: 98px;
+    }
+
+    .asideSectionContent {
+        width: 140px;
+        height: 170px;
+        background-color: #FFFFFF;
     }
 }
