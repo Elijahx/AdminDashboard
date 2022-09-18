@@ -157,6 +157,11 @@ button:hover {
     width: 250px;
     height: 200px;
     background-color: whitesmoke;
+    overflow: auto;
+    border-radius: 10px;
+    padding: 10px;
+    outline-style: solid;
+    outline-color: #F0B429;
 }
 
 .asideSectionContainer {
@@ -170,9 +175,24 @@ button:hover {
     width: 240px;
     height: 270px;
     background-color: #FFFFFF;
+
 }
 
+.sSContentParagraph {
+    font-weight: 400;
+    padding-top: 10px;
+}
 
+.sSCbottomLabel {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.inputSize {
+    width: 400px;
+}
+/* TODO: Responsiveness media query for Tablet sizes. */
 
 @media screen and (max-width: 710px) {
     input {
@@ -196,5 +216,8 @@ button:hover {
         width: 140px;
         height: 170px;
         background-color: #FFFFFF;
+    }
+    .inputSize {
+        width: 150px;
     }
 }
