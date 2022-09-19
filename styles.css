@@ -175,12 +175,23 @@ button:hover {
     width: 240px;
     height: 270px;
     background-color: #FFFFFF;
+    overflow: auto;
+    border-radius: 10px;
+    padding: 10px;
+    outline-style: solid;
+    outline-color: #F0B429;
 
 }
 
-.sSContentParagraph {
+.sSContentParagraph,
+.announcementContent {
     font-weight: 400;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.announcementContent {
+    font-size: .8em;
 }
 
 .sSCbottomLabel {
@@ -192,6 +203,7 @@ button:hover {
 .inputSize {
     width: 400px;
 }
+
 /* TODO: Responsiveness media query for Tablet sizes. */
 
 @media screen and (max-width: 710px) {
